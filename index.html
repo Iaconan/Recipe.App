@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe-App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    <div class="mobile-container">
+        <header>
+            <input type="text">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav-meals">
+                <li><img src="./image/Carbonara.png" alt="Carbonara"><span>Carbonara</span></li>
+                <li><img src="./image/Parmiggiana.png" alt="Parmiggiana"><span>Parmiggiana</span></li>
+                <li><img src="./image/Pizza.png" alt="Pizza"><span>Pizza</span></li>
+            </ul>
+
+
+        </div>
+        <div class="meals">
+            <span class="random">
+                Random Recipe
+            </span>
+            <div class="meal">
+                <div class="meal-header">
+                    <img src="./image/vellutata-patate.png" alt="Patate">
+                </div>
+                <div class="meal-body">
+                    <h4>Hamburger</h4>
+                    <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
